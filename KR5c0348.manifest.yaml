@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0348/v1
+canonical_location: https://kanripo.org/bkk/KR5c0348/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 神仙養生祕術
+  identifiers:
+    alt_id:
+    - DZ0948
+  date: '2015-08-29 00:56:23.312485'
+  source:
+    repository: kanripo
+    path: KR5c0348
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0348_000.yaml, hash: 'sha256:ab2e86daabb6453619efdbf6f93fa8fd7c995ccd0c5943a41cb7ececb54b7599'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0348_000.markers.yaml, hash: 'sha256:e9dfb65c2382c2fbe02dce8ade9065d7626694819713bdb9fe73ee25c58e84db'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0348_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4384
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:01acee3c459cf5fe06320f42dbc7d658f876e865bfbf2ff06cb2b2cc4dd7ea1a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
